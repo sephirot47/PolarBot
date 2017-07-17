@@ -97,175 +97,175 @@ CPP_DEPS += \
 core/CDC.cpp.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/CDC.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/HardwareSerial.cpp.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/HardwareSerial.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/HardwareSerial0.cpp.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/HardwareSerial0.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/HardwareSerial1.cpp.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/HardwareSerial1.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/HardwareSerial2.cpp.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/HardwareSerial2.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/HardwareSerial3.cpp.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/HardwareSerial3.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/IPAddress.cpp.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/IPAddress.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/PluggableUSB.cpp.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/PluggableUSB.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/Print.cpp.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/Stream.cpp.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/Stream.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/Tone.cpp.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/Tone.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/USBCore.cpp.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/USBCore.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/WInterrupts.c.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/WInterrupts.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/WMath.cpp.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/WMath.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/WString.cpp.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/WString.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/abi.cpp.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/abi.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/hooks.c.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/hooks.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/main.cpp.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/main.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/new.cpp.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/new.cpp
 	@echo 'Building file: $<'
 	@echo 'Starting C++ compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-g++" -c -g -Os -Wall -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/home/jfons/eclipse-workspace/PolarBot/lib/AccelStepper/include" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 -x c++ "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/wiring.c.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/wiring.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/wiring_analog.c.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/wiring_analog.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/wiring_digital.c.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/wiring_digital.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/wiring_pulse.S.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/wiring_pulse.S
 	@echo 'Building file: $<'
 	@echo 'Starting S compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -c -g -x assembler-with-cpp -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@"  "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -c -g -x assembler-with-cpp -flto -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@"  "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/wiring_pulse.c.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/wiring_pulse.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 core/wiring_shift.c.o: /usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino/wiring_shift.c
 	@echo 'Building file: $<'
 	@echo 'Starting C compile'
-	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_DUEMILANOVE -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"
+	"/usr/lib/eclipse//arduinoPlugin/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.3-arduino2/bin/avr-gcc" -c -g -Os -Wall -Wextra -std=gnu11 -ffunction-sections -fdata-sections -flto -fno-fat-lto-objects -mmcu=atmega328p -DF_CPU=16000000L -DARDUINO=10802 -DARDUINO_AVR_UNO -DARDUINO_ARCH_AVR   -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/cores/arduino" -I"/usr/lib/eclipse/arduinoPlugin/packages/arduino/hardware/avr/1.6.13/variants/standard" -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -D__IN_ECLIPSE__=1 "$<"  -o  "$@"
 	@echo 'Finished building: $<'
 	@echo ' '
 

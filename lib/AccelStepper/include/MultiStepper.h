@@ -64,11 +64,11 @@ public:
 private:
     /// Array of pointers to the steppers we are controlling.
     /// Fills from 0 onwards
-    AccelStepper* _steppers[MULTISTEPPER_MAX_STEPPERS];
+    AccelStepper* steppers[MULTISTEPPER_MAX_STEPPERS];
 
     /// Number of steppers we are controlling and the number
     /// of steppers in _steppers[]
-    uint8_t       _num_steppers;
+    uint8_t       num_steppers;
 };
 
 /// @example MultiStepper.pde
