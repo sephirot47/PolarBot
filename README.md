@@ -1,1 +1,2 @@
 # PolarBot
+Polar Bot program.
